@@ -29,10 +29,15 @@ En una terminal del servidor en el que esté instalado Drupal 7, debemos acceder
 
 Una vez ahí, ejecutamos los siguientes comandos:
 ```
-git clone https://github.com/DavidLMS/h5p-branching-scenario git clone https://github.com/h5p/h5p-branching-question
-git clone https://github.com/h5p/h5p-editor-branching-scenario git clone https://github.com/h5p/h5p-editor-branching-question git clone https://github.com/h5p/h5p-material-design-icons.git mv h5p-branching-scenario H5P.BranchingScenario
+git clone https://github.com/DavidLMS/h5p-branching-scenario
+git clone https://github.com/h5p/h5p-branching-question
+git clone https://github.com/h5p/h5p-editor-branching-scenario
+git clone https://github.com/h5p/h5p-editor-branching-question
+git clone https://github.com/h5p/h5p-material-design-icons.git
+mv h5p-branching-scenario H5P.BranchingScenario
 mv h5p-branching-question H5P.BranchingQuestion
-mv h5p-editor-branching-scenario H5PEditor.BranchingScenario mv h5p-editor-branching-question H5PEditor.BranchingQuestion
+mv h5p-editor-branching-scenario H5PEditor.BranchingScenario
+mv h5p-editor-branching-question H5PEditor.BranchingQuestion
 ```
 
 Posteriormente, ejecutamos los siguientes:
@@ -56,7 +61,7 @@ sudo npm install -g --unsafe-perm=true — allow-root
 
 Una vez realizado lo anterior, la versión de Branching Scenario que aparecerá en el HUB de H5P será la modificada y podremos usarla para crear la actividad. Tendremos que conectar nuestro LRS preferido en la configuración del módulo Tin Can API para poder revisar los registros de uso de la misma.
 
-### Conexión de Learning Locker
+### Ejemplo: Conexión con Learning Locker
 
 
 
