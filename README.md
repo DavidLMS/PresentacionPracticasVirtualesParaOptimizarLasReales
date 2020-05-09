@@ -25,7 +25,6 @@ Se pueden consultar las diapositivas presentadas durante el vídeo [aquí](https
 
 La actividad ha sido editada eliminando las opciones derivadas de la extensión (entorno en 360 grados y sentencias xAPI modificadas) para que pueda probarse en cualquier sistema que tenga instalado el plugin de H5P. Solamente hay que marcar la opción "Subir" en el HUB H5P del sistema y subir el archivo que se puede descargar [aquí](https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/practica-configura-tu-router-domestico.h5p).
 
-![Inicio de la práctica](https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/inicio-practica.png)
  <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/inicio-practica.png" width="350"/></p> 
 
 ## 4. Cómo utilizar la extensión de Branching Scenario
@@ -38,6 +37,8 @@ Es necesario contar con un sistema Drupal 7 instalado, junto con los plugins de 
 
 * Enable development mode
 * Enable library development directory (For programmers only)
+
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/config-h5p.png" width="700"/></p> 
 
 Además, en el HUB de H5P hay que instalar los tipos de contenido "Course Presentation", "Interactive Video" e "Image Hotspots". Pero no debería instalarse "Branching Scenario", ya que se instalará una versión modificada y podrían crearse conflictos.
 
@@ -83,11 +84,21 @@ Una vez realizado lo anterior, la versión de Branching Scenario que aparecerá 
 
 Si se quiere realizar la conexión de la xAPI con un sistema Learning Locker, primero crearemos un almacén (Store) en Settings->Stores de Learning Locker.
 
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/storelearninglocker.png" width="450"/></p> 
+
 Después, en Settings->Clients creamos un nuevo cliente. Copiamos los datos "Key" y "Secret", además del "xAPI Endpoint" y pasamos a configurar el plugin Tin Can Api de Drupal.
+
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/config-learning-locker.png" width="450"/></p> 
 
 Ahí será donde pongamos el Endpoint, así como el "User", que se corresponde con "Key", y "Password", que se corresponde con "Secret". Solamente nos queda guardar la configuración.
 
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/config-tin-can-api.png" width="450"/></p> 
+
 Así, cada vez que un usuario avance en un nodo de contenido de la actividad creada en Branching Scenario, aparecerá en Learning Locker una sentencia tipo "progressed" con el identificador del nodo y el tiempo permanecido en el mismo.
+
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/learninglocker.png" width="450"/></p> 
+
+ <p align="center"> <img src="https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/json.png" width="450"/></p> 
 
 El número de identificación del nodo es el que está definido en el archivo .json de la actividad dentro de la carpeta content. Para acceder al mismo, solamente tenemos que descargarnos nuestra actividad, cambiar la extensión .h5p por .zip y descomprimirlo.
 
