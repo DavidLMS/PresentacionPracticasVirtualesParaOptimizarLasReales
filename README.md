@@ -25,6 +25,8 @@ Se pueden consultar las diapositivas presentadas durante el vídeo [aquí](https
 
 La actividad ha sido editada eliminando las opciones derivadas de la extensión (entorno en 360 grados y sentencias xAPI modificadas) para que pueda probarse en cualquier sistema que tenga instalado el plugin de H5P. Solamente hay que marcar la opción "Subir" en el HUB H5P del sistema y subir el archivo que se puede descargar [aquí](https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/practica-configura-tu-router-domestico.h5p).
 
+![Inicio de la práctica](link-to-image)
+
 ## 4. Cómo utilizar la extensión de Branching Scenario
 
 Si se pretende crear una actividad en Branching Scenario que pueda conectarse con un LRS y quede registrado el nodo de contenido recorrido y el tiempo permanecido en cada uno de ellos por el usuario, es necesario utilizar la versión modificada del mismo. Se ha solicitado un pull request al desarrollo principal, pero mientras no sea aprobado, hay que hacer una instalación manual siguiendo las instrucciones a continuación.
@@ -78,7 +80,17 @@ Una vez realizado lo anterior, la versión de Branching Scenario que aparecerá 
 
 ### 4.4. Ejemplo: Conexión con Learning Locker
 
+Si se quiere realizar la conexión de la xAPI con un sistema Learning Locker, primero crearemos un almacén (Store) en Settings->Stores de Learning Locker.
 
+Después, en Settings->Clients creamos un nuevo cliente. Copiamos los datos "Key" y "Secret", además del "xAPI Endpoint" y pasamos a configurar el plugin Tin Can Api de Drupal.
+
+Ahí será donde pongamos el Endpoint, así como el "User", que se corresponde con "Key", y "Password", que se corresponde con "Secret". Solamente nos queda guardar la configuración.
+
+Así, cada vez que un usuario avance en un nodo de contenido de la actividad creada en Branching Scenario, aparecerá en Learning Locker una sentencia tipo "progressed" con el identificador del nodo y el tiempo permanecido en el mismo.
+
+El número de identificación del nodo es el que está definido en el archivo .json de la actividad dentro de la carpeta content. Para acceder al mismo, solamente tenemos que descargarnos nuestra actividad, cambiar la extensión .h5p por .zip y descomprimirlo.
+
+Estos datos pueden exportarse en .csv para automatizar su análisis.
 
 ## 5. Más información
 
