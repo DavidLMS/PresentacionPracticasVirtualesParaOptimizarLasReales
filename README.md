@@ -25,7 +25,7 @@ Se pueden consultar las diapositivas presentadas durante el vídeo [aquí](https
 
 La actividad ha sido editada eliminando las opciones derivadas de la extensión (entorno en 360 grados y sentencias xAPI modificadas) para que pueda probarse en cualquier sistema que tenga instalado el plugin de H5P. Solamente hay que marcar la opción "Subir" en el HUB H5P del sistema y subir el archivo que se puede descargar [aquí](https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/practica-configura-tu-router-domestico.h5p).
 
-![Inicio de la práctica](link-to-image)
+![Inicio de la práctica](https://github.com/DavidLMS/PresentacionPracticasVirtualesParaOptimizarLasReales/raw/master/images/inicio-practica.png)
 
 ## 4. Cómo utilizar la extensión de Branching Scenario
 
