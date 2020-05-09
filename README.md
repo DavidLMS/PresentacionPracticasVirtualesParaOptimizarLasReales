@@ -2,15 +2,15 @@
 
 Materiales y enlaces relacionados con el PechaKucha "Prácticas virtuales para optimizar las reales" presentado en el I Congreso Virtual de [Apuntes FP Informática](https://apuntesfpinformatica.es).
 
-* [1. Vídeo](#video)
-* [2. Diapositivas](#diapositivas)
-* [3. Archivo H5P de la actividad](#archivo-h5p-de-la-actividad)
-* [4. Cómo utilizar la extensión de Branching Scenario](#como-utilizar-la-extension-de-branching-ccenario)
-	* [4.1. Preparación del entorno](#preparacion-del-entorno)
-	* [4.2. Descarga e instalación de Branching Scenario modificado](#descarga-e-instalacion-de-branching-scenario-modificado)
-	* [4.3. Uso](#uso)
-	* [4.4. Ejemplo: Conexión con Learning Locker](#preparacion-del-entorno)
-* [5. Más información](#mas-informacion)
+* [1. Vídeo](#1-vídeo)
+* [2. Diapositivas](#2-diapositivas)
+* [3. Archivo H5P de la actividad](#3-archivo-h5p-de-la-actividad)
+* [4. Cómo utilizar la extensión de Branching Scenario](#4-cómo-utilizar-la-extensión-de-branching-scenario)
+	* [4.1. Preparación del entorno](#41-preparación-del-entorno)
+	* [4.2. Descarga e instalación de Branching Scenario modificado](#42-descarga-e-instalación-de-branching-scenario-modificado)
+	* [4.3. Uso](#43-uso)
+	* [4.4. Ejemplo: Conexión con Learning Locker](#44-ejemplo-conexión-con-learning-locker)
+* [5. Más información](#5-más-información)
 
 
 ## 1. Vídeo
