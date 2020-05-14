@@ -15,7 +15,7 @@ Materiales y enlaces relacionados con el PechaKucha "Prácticas virtuales para o
 
 ## 1. Vídeo
 
-[https://m.youtube.com/watch?v=0siJGtKph3s](https://m.youtube.com/watch?v=0siJGtKph3s)
+[https://youtube.com/watch?v=0siJGtKph3s](https://youtube.com/watch?v=0siJGtKph3s)
 
 ## 2. Diapositivas
 
